@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>洛阳通</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>洛阳通</h1>
+        <input type="text" id="searchBox" placeholder="搜索商家信息..." oninput="filterItems()">
+    </header>
+    <main>
+        <div class="grid-container" id="categoryContainer">
+            <!-- 商家列表（默认填充100个） -->
+            <div class="category" data-category="政务">
+                <h2>名字</h2>
+                <p>商家名字</p>
+                <p>地址：地址</p>
+                <p>联系方式：电话</p>
+            </div>
+            <div class="category" data-category="体育">
+                <h2>商家名称：运动俱乐部</h2>
+                <p>业务范围：健身、瑜伽、游泳</p>
+                <p>地址：某市某区体育路789号</p>
+                <p>联系方式：888-999-0000</p>
+            </div>
+            <div class="category" data-category="旅游">
+                <h2>商家名称：旅游之家</h2>
+                <p>业务范围：国内外旅游服务</p>
+                <p>地址：某市某区旅游大道123号</p>
+                <p>联系方式：777-666-5555</p>
+            </div>
+            <div class="category" data-category="家政">
+                <h2>商家名称：贴心家政</h2>
+                <p>业务范围：家政清洁、月嫂服务</p>
+                <p>地址：某市某区家政路321号</p>
+                <p>联系方式：111-222-3333</p>
+            </div>
+            <!-- 继续添加其他商家以填充到100个 -->
+        </div>
+    </main>
+    <footer>
+        <p>版权所有 © 2025 洛阳通</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
